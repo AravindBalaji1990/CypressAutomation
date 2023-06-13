@@ -1,0 +1,352 @@
+[
+  {
+    "description": "    Google title verification\n    Google input verification",
+    "keyword": "Feature",
+    "name": "Google web testing",
+    "line": 1,
+    "id": "google-web-testing",
+    "tags": [],
+    "uri": "demosite.feature",
+    "elements": [
+      {
+        "id": "google-web-testing;verify-the-title-of-google-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify the title of Google page",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 2221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User verifies the title",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-web-testing;input-data-from-steps-to-google-input-box",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Input data from steps to Google input box",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user input the data \"javascript\"",
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 7509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user verify the search result page with \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-web-testing;input-the-data-from-table-to-google-input-box",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Input the data from table to Google input box",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 19
+          },
+          {
+            "name": "@Regression",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "data"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "javascript"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "cypress"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "cypress doc"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 21,
+            "name": "user input the data from table",
+            "result": {
+              "status": "passed",
+              "duration": 949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user verify the search result page with \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-web-testing;verify-the-variety-of-data-to-be-input-in-the-google-input-box",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Verify the variety of data to be input in the google input box",
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 1330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "user input the data from below table 'javascript'",
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 5210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user verify the search result page with \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-web-testing;verify-the-variety-of-data-to-be-input-in-the-google-input-box",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Verify the variety of data to be input in the google input box",
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "user input the data from below table 'cypress'",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 5590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user verify the search result page with \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-web-testing;verify-the-variety-of-data-to-be-input-in-the-google-input-box",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Verify the variety of data to be input in the google input box",
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "user input the data from below table 'cypress doc'",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user verify the search result page with \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
