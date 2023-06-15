@@ -6,7 +6,7 @@ reportPath: "./reports/cucumber-htmlreport.html",
 metadata: {
 browser: {
 name: "chrome",
-version: "81",
+version: "114",
 },
 device: "Local test machine",
 platform: {

@@ -28,7 +28,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 2221000000
+              "duration": 2220000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 967000000
+              "duration": 2132000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "user input the data \"javascript\"",
             "result": {
               "status": "passed",
-              "duration": 344000000
+              "duration": 499000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 7509000000
+              "duration": 7050000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 95000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 998000000
+              "duration": 2115000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "user input the data from table",
             "result": {
               "status": "passed",
-              "duration": 949000000
+              "duration": 1155000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 3782000000
+              "duration": 4700000000
             }
           },
           {
@@ -177,7 +177,7 @@
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 74000000
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 1330000000
+              "duration": 2110000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "user input the data from below table 'javascript'",
             "result": {
               "status": "passed",
-              "duration": 387000000
+              "duration": 430000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 5210000000
+              "duration": 6247000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 97000000
             }
           }
         ]
@@ -257,7 +257,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 1321000000
+              "duration": 1966000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "user input the data from below table 'cypress'",
             "result": {
               "status": "passed",
-              "duration": 311000000
+              "duration": 415000000
             }
           },
           {
@@ -277,7 +277,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 5590000000
+              "duration": 5951000000
             }
           },
           {
@@ -287,7 +287,7 @@
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 83000000
             }
           }
         ]
@@ -312,7 +312,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 741000000
+              "duration": 1904000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "user input the data from below table 'cypress doc'",
             "result": {
               "status": "passed",
-              "duration": 464000000
+              "duration": 425000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 3529000000
+              "duration": 4621000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
               "status": "passed",
-              "duration": 61000000
+              "duration": 75000000
             }
           }
         ]
