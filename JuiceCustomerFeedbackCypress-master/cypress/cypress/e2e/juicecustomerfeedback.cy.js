@@ -4,6 +4,7 @@ import customerfeedbackform from "../pages/customerfeedbackform"
 
 describe('Customer Feedback',function (){
   beforeEach(function() {
+    cy.intercept('POST', 'https://juice-shop.herokuapp.com/api/Feedbacks/').as('post')
     cy.visit('https://juice-shop.herokuapp.com/')
     cy.get('img.logo+span').invoke('text').should('eq', ' OWASP Juice Shop ')
     cy.get('button[class=\'mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted\']').click();
@@ -12,14 +13,13 @@ describe('Customer Feedback',function (){
     cy.get('mat-nav-list[role=\'navigation\']>a[routerlink=\'/contact\']>span>span[class=\'menu-text truncate\']').click();
  })
 
-it.only('Juice Shop opening the website with comment - 5 letters with space - Happy path', function() {
+it('Juice Shop opening the website with comment - 5 letters with space - Happy path', function() {
     const customerfeedbackformobj = new customerfeedbackform();
     customerfeedbackformobj.checkAuthor()
     customerfeedbackformobj.enterComments('abcd e')
     customerfeedbackformobj.ratingSliderRightArrow()
     customerfeedbackformobj.captchaValidation()
     customerfeedbackformobj.submitForm()
-    cy.intercept('POST', 'https://juice-shop.herokuapp.com/api/Feedbacks/').as('post')
     cy.wait('@post').then((interception) => {
       assert.isNotNull(interception.response.body, 'API call has data')
       expect(interception.response.statusCode).to.eq(201)

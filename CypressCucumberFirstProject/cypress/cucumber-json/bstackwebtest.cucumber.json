@@ -1,0 +1,63 @@
+[
+  {
+    "description": "Verify the url and title\nVeify items availability in dashbaord",
+    "keyword": "Feature",
+    "name": "To test the bstack web",
+    "line": 1,
+    "id": "to-test-the-bstack-web",
+    "tags": [],
+    "uri": "bstackwebtest.feature",
+    "elements": [
+      {
+        "id": "to-test-the-bstack-web;to-launch-the-browser-and-check-for-the-title-and-url-of-the-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "To launch the browser and check for the title and url of the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User launches the website",
+            "result": {
+              "status": "passed",
+              "duration": 1826000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User is able to view the page",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User is able to check the availability of the device",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User selects the device",
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

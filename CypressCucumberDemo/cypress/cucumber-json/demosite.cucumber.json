@@ -28,7 +28,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 2220000000
+              "duration": 2270000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "User verifies the title",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 15000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 2132000000
+              "duration": 2450000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "user input the data \"javascript\"",
             "result": {
               "status": "passed",
-              "duration": 499000000
+              "duration": 422000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 7050000000
+              "duration": 355000000
             }
           },
           {
@@ -92,8 +92,8 @@
             "line": 17,
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
-              "status": "passed",
-              "duration": 95000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Google' to include 'Google Search'\n    at Context.eval (cypress/e2e/demosite/demositestepdef.js:37:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 2115000000
+              "duration": 2951000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "user input the data from table",
             "result": {
               "status": "passed",
-              "duration": 1155000000
+              "duration": 1160000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 4700000000
+              "duration": 471000000
             }
           },
           {
@@ -176,8 +176,8 @@
             "line": 27,
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
-              "status": "passed",
-              "duration": 74000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.yuRUbf>a`, but never found it.\n    at Context.eval (cypress/e2e/demosite/demositestepdef.js:38:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]
@@ -202,7 +202,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 2110000000
+              "duration": 2584000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "user input the data from below table 'javascript'",
             "result": {
               "status": "passed",
-              "duration": 430000000
+              "duration": 400000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 6247000000
+              "duration": 379000000
             }
           },
           {
@@ -231,8 +231,8 @@
             "line": 33,
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
-              "status": "passed",
-              "duration": 97000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.yuRUbf>a`, but never found it.\n    at Context.eval (cypress/e2e/demosite/demositestepdef.js:38:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]
@@ -257,7 +257,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 1966000000
+              "duration": 2214000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "user input the data from below table 'cypress'",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 301000000
             }
           },
           {
@@ -277,7 +277,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 5951000000
+              "duration": 211000000
             }
           },
           {
@@ -286,8 +286,8 @@
             "line": 33,
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
-              "status": "passed",
-              "duration": 83000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Google' to include 'Google Search'\n    at Context.eval (cypress/e2e/demosite/demositestepdef.js:37:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]
@@ -312,7 +312,7 @@
             "name": "User launch the url",
             "result": {
               "status": "passed",
-              "duration": 1904000000
+              "duration": 2091000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "user input the data from below table 'cypress doc'",
             "result": {
               "status": "passed",
-              "duration": 425000000
+              "duration": 507000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "user clicks the search button",
             "result": {
               "status": "passed",
-              "duration": 4621000000
+              "duration": 271000000
             }
           },
           {
@@ -341,8 +341,8 @@
             "line": 33,
             "name": "user verify the search result page with \"Google Search\"",
             "result": {
-              "status": "passed",
-              "duration": 75000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Google' to include 'Google Search'\n    at Context.eval (cypress/e2e/demosite/demositestepdef.js:37:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]

@@ -24,11 +24,11 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('locator',(value)=>{
-    if(StringOf(value).startswith('//')){
-        cy.xpath(value)
-    }else{
-        cy.get(value)  
-    }
+// Cypress.Commands.add('locator',(value)=>{
+//     if(StringOf(value).startswith('//')){
+//         cy.xpath(value)
+//     }else{
+//         cy.get(value)  
+//     }
   
-})
+// })

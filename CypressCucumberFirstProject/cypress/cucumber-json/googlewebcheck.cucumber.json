@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the google applicaiton",
+    "line": 1,
+    "id": "test-the-google-applicaiton",
+    "tags": [],
+    "uri": "googlewebcheck.feature",
+    "elements": [
+      {
+        "id": "test-the-google-applicaiton;to-check-the-text-box-is-available-and-accepts-keywords",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "To check the text box is available and accepts keywords",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open the browser and enters the url",
+            "result": {
+              "status": "passed",
+              "duration": 1645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the url",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "data"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "javascript"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "cypress"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user enters data in the text box",
+            "result": {
+              "status": "passed",
+              "duration": 10708000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-google-applicaiton;one-functionality-but-different-data",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "One functionality but different data",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open the browser and enters the url",
+            "result": {
+              "status": "passed",
+              "duration": 1534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the url",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user input the data from below table 'javascript'",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 8063000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user verify the search result page with \"About 9,600,000,000 results\"",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-google-applicaiton;one-functionality-but-different-data",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "One functionality but different data",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open the browser and enters the url",
+            "result": {
+              "status": "passed",
+              "duration": 1432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the url",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user input the data from below table 'cypress'",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 7263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user verify the search result page with \"About 9,600,000,000 results\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'About 186,000,000 results (0.33 seconds) ' to include 'About 9,600,000,000 results'\n    at Context.eval (cypress/e2e/googlewebcheck/googlewebcheckstepdef.js:31:56)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-google-applicaiton;one-functionality-but-different-data",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "One functionality but different data",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open the browser and enters the url",
+            "result": {
+              "status": "passed",
+              "duration": 2151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user validates the url",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user input the data from below table 'cypress doc'",
+            "result": {
+              "status": "passed",
+              "duration": 513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user clicks the search button",
+            "result": {
+              "status": "passed",
+              "duration": 6324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user verify the search result page with \"About 9,600,000,000 results\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'About 5,540,000 results (0.33 seconds) ' to include 'About 9,600,000,000 results'\n    at Context.eval (cypress/e2e/googlewebcheck/googlewebcheckstepdef.js:31:56)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

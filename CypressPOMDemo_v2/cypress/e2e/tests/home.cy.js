@@ -3,7 +3,6 @@ import home from "../../pages/home"
 describe('template spec', () => {
   before(function() {
     // executes prior each test within it block
-    home.visit()
     cy.log("BeforeEach hook")
  })
   
@@ -13,7 +12,9 @@ describe('template spec', () => {
 
   it("should search for a product", () => {
     home.visit()
-    home.searchInput("iphone")
-    home.getSearchButton().click()
+    cy.fixture('searchdata').then(function(testdata){
+      home.searchInput(testdata.data)
+      home.getSearchButton().click()
+  }) 
   })
 })

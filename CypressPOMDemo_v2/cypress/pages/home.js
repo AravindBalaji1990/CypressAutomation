@@ -2,16 +2,11 @@
 
 class home{
 
-  // this function i maintain only for identification of locator
-  // getSearchTxt(){
-  //   return cy.locator('input[name="search"]')
-  // }
-    
-
   // this will always be avialable in this POM model
     visit() {
         cy.visit("/")
       }
+
      
       // i call the locator function and do the logics/actions
       searchInput(text) {
